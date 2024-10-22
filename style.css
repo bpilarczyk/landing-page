@@ -50,10 +50,9 @@ body {
 }
 
 .img-box {
-    border: 3px solid #3882F6;
     background: #95979b;
     color: #E5E7EB;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     width: 450px;
     height: 225px;
     display: flex;
@@ -120,11 +119,63 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    padding: 120px;
 
 }
+
+.quote-main {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+}
+
+.quote-author {
+    display: flex;
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 600;
+    margin-top: 18px;
+    justify-self: flex-end;
+}
+
 .call-to-action {
-
+    display: flex;
+    flex-direction: row;
 }
+
+.cta-box {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    flex: 1;
+    margin: 80px 120px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    /* width: 200px; */
+    height: 100px;
+    
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-text-bold {
+    font-size: 24px;
+    /* font-style: italic; */
+    color: #E5E7EB;
+    font-weight: 700;
+}
+
+.cta-text-regular {
+    font-size: 18px;
+    /* font-style: italic; */
+    color: #E5E7EB;
+    font-weight: 400;
+}
+
 .footer {
     background-color: #1F2937;
     font-size: 18px;
