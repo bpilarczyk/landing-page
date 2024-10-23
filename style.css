@@ -142,6 +142,8 @@ button {
 .call-to-action {
     display: flex;
     flex-direction: row;
+    
+
 }
 
 .cta-box {
@@ -149,9 +151,11 @@ button {
     flex-direction: row;
     margin: auto;
     flex: 1;
+    justify-content: space-around;
+    align-items: center;
     margin: 80px 120px;
     background-color: #3882F6;
-    border-radius: 15px;
+    border-radius: 5px;
     /* width: 200px; */
     height: 100px;
     
@@ -175,6 +179,11 @@ button {
     color: #E5E7EB;
     font-weight: 400;
 }
+
+.cta-sign-up {
+    border: 2px solid #F9FAF8;
+}
+
 
 .footer {
     background-color: #1F2937;
