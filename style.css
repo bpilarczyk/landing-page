@@ -1,4 +1,5 @@
 body {
+    font-style: ;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     min-height: 100vh;
@@ -19,7 +20,7 @@ body {
     font-weight: 700;
 }
 
-.header-top{
+.header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,6 +37,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
+    padding-right: 60px;
 }
 
 .hero-main {
@@ -53,7 +55,7 @@ body {
     background: #95979b;
     color: #E5E7EB;
     /* border-radius: 10px; */
-    width: 450px;
+    width: 420px;
     height: 225px;
     display: flex;
     justify-content: center;
@@ -61,16 +63,25 @@ body {
 }
 
 button {
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 0;
     background: #3882F6;
     border: none;
     border-radius: 5px;
-    padding: 4px 18px;
+    /* padding: 4px 18px; */
+    padding: 0;
     font-weight: 700;
     color: #E5E7EB;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
 }
 
-.information {
-    
+.information {    
 }
 
 .info-title {
@@ -93,16 +104,19 @@ button {
     display: flex;
     /* justify-content: center; */
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 0px 120px;
     margin-bottom: 50px;
-    gap: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    /* gap: 20px; */
     
 }
 
 .item {
     display: flex;
     flex-direction: column;
-    max-width: 180px;
+    max-width: 200px;
     align-items: center;
     text-align: center;
     /* justify-content: center; */
@@ -111,8 +125,8 @@ button {
 .box {
     border: 3px solid #3882F6;
     border-radius: 15px;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     display: flex;
     /* align-self: center; */
 }
@@ -120,7 +134,6 @@ button {
 .quote {
     background-color: #E5E7EB;
     padding: 120px;
-
 }
 
 .quote-main {
@@ -142,8 +155,7 @@ button {
 .call-to-action {
     display: flex;
     flex-direction: row;
-    
-
+    /* margin-bottom: 80px; */
 }
 
 .cta-box {
@@ -151,19 +163,21 @@ button {
     flex-direction: row;
     margin: auto;
     flex: 1;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 80px 120px;
+    margin: 80px 100px;
+    padding: 20px 100px;
     background-color: #3882F6;
     border-radius: 5px;
     /* width: 200px; */
-    height: 100px;
-    
+    /* height: 100px; */
+    min-height: 100px;
 }
 
 .cta-left {
     display: flex;
     flex-direction: column;
+    padding-right: 60px;
 }
 
 .cta-text-bold {
@@ -189,6 +203,14 @@ button {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 ul {
